@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+@media screen and (max-width:560px){
+   
+   
+header{
+        flex-direction: column;
+        justify-content: center;
+}
+
+.lista{
+    display: none;
+}
+
+#inscreva-se-btn{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5vh;
+    margin-right: 4rem;
+
+}
+main{
+    flex-direction: column;
+}
+
+h2{
+    font-size: 38px;
+}
+
+span{
+    line-height: 5vh;
+}
+
+h3{
+    line-height: 5vh;
+}
+p{
+    text-align: justify;
+}
+form{
+    margin: 0 auto;
+    width: 100%;
+}
+
+input{
+    align-self: center;
+}
+
+article{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+img{
+    width: 360px;
+}
+
+
+
+
+}
